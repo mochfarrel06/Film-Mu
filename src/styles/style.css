@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+
+.navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.nav-item a:hover {
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+}
+
+.footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
