@@ -31,7 +31,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Film-Mu',
-            filename: 'template.html',
+            filename: 'index.html',
             template: path.resolve(__dirname, 'src/template.html'),
         }),
         new CopyWebpackPlugin({

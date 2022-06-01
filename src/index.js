@@ -1,6 +1,16 @@
 import 'regenerator-runtime';
 import '../src/styles/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import * as bootstrap from 'bootstrap';
+import App from '../src/scripts/views/app';
 
-console.log(12345);
+const app = new App({
+    content: document.querySelector('#mainContent'),
+});
+
+window.addEventListener('hashchange', () => {
+    app.renderPage();
+  });
+  
+window.addEventListener('load', () => {
+    app.renderPage();
+});
