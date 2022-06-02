@@ -1,12 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap");
+
+:root {
+  /* ====== Colors =====*/
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: #414141;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #707070;
+
+  /* ====== Transition ======*/
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
 
 .navbar-brand {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.nav-item a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: var(--tran-04);
 }
 
 .nav-item a:hover {
-    font-weight: 500;
-    color: black;
-    text-decoration: underline;
+  background: var(--primary-color);
 }
+
+.card-title h5 {
+  text-decoration: none;
+}
+
+/* .nav-item a:hover {
+  font-weight: 500;
+  color: black;
+  text-decoration: underline;
+} */
+
+/* body {
+  height: 100vh;
+  background: var(--body-color);
+  transition: var(--tran-05);
+}
+
+body.dark {
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a383c;
+  --primary-color-light: #3a383c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+} */

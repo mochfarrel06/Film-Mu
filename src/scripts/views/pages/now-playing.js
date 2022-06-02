@@ -1,6 +1,6 @@
-import TheFilmDb from '../../data/thefilm-db';
-import { createMovieItemTemplate } from '../templates/template-creator';
-import 'bootstrap/dist/js/bootstrap';
+import TheFilmDb from "../../data/thefilm-db";
+import { createMovieItemTemplate } from "../templates/template-creator";
+import "bootstrap/dist/js/bootstrap";
 
 const NowPlaying = {
   async render() {
@@ -10,7 +10,7 @@ const NowPlaying = {
                     <div class="row">
                         <div class="col-md-12 text-center mb-5">
                         <div class="about-title">
-                            <h2 class="fw-bold">List Film</h2>
+                            <h2 class="fw-bold">Now Playing</h2>
                         </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const NowPlaying = {
 
   async afterRender() {
     const movies = await TheFilmDb.nowPlayingMovies();
-    const moviesContainer = document.querySelector('#movies');
+    const moviesContainer = document.querySelector("#movies");
     movies.forEach((movie) => {
       moviesContainer.innerHTML += createMovieItemTemplate(movie);
     });

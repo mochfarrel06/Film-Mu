@@ -1,4 +1,4 @@
-import CONFIG from '../../api-config/config';
+import CONFIG from "../../api-config/config";
 
 const createMovieDetailTemplate = (movie) => `
     <div class="col-md-6">
@@ -15,7 +15,7 @@ const createMovieDetailTemplate = (movie) => `
       <h4>Duration</h4>
       <p>${movie.runtime} minutes</p>
       <h4>Rating</h4>
-      <p>${movie.vote_average}</p>
+      <p>⭐️${movie.vote_average}</p>
       <h3>Overview</h3>
       <p>${movie.overview}</p>
     </div>
@@ -24,11 +24,11 @@ const createMovieDetailTemplate = (movie) => `
 const createMovieItemTemplate = (movie) => `
     <div class="col-sm-6 col-md-4 mb-3">
         <div class="card">
-            <img class="img-thumbnail" alt="${movie.title}" src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : 'https://picsum.photos/id/666/800/450?grayscale'}" />
+            <img class="img-thumbnail" alt="${movie.title}" src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : "https://picsum.photos/id/666/800/450?grayscale"}" />
             <div class="card-body">
-                <h5 class="card-title text-center pb-2"><a href="${`/#/detail/${movie.id}`}">${movie.title}</a></h5>
-                <p class="card-text">${movie.overview}</p>
-                <p>⭐️${movie.vote_average}</p>
+                <h5 class="card-title text-center pb-2"><a class="text-decoration-none" href="${`/#/detail/${movie.id}`}">${movie.title}</a></h5>
+                <span class="text-bg-secondary">Rating: ⭐️${movie.vote_average}</span>
+                <p class="card-text text-justify">${movie.overview}</p>
             </div>
         </div>
     </div>
