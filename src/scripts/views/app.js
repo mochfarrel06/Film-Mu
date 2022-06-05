@@ -1,11 +1,10 @@
-import UrlParser from '../routes/url-parser';
-import routes from '../routes/routes';
+import UrlParser from "../routes/url-parser";
+import routes from "../routes/routes";
 
 class App {
   constructor({ content }) {
     this._content = content;
-
-    }
+  }
 
   async renderPage() {
     const url = UrlParser.parseActiveUrlWithCombiner();

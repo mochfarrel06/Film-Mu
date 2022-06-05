@@ -4,7 +4,7 @@
   /* ====== Colors =====*/
   --body-color: #e4e9f7;
   --sidebar-color: #fff;
-  --primary-color: #414141;
+  --primary-color: #000000;
   --primary-color-light: #f6f5ff;
   --toggle-color: #ddd;
   --text-color: #707070;
@@ -16,6 +16,10 @@
   --tran-05: all 0.5s ease;
 }
 
+.container a:hover {
+  color: #414141;
+}
+
 .navbar-brand {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -24,38 +28,44 @@
 .nav-item a {
   height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
   border-radius: 6px;
   transition: var(--tran-04);
 }
 
 .nav-item a:hover {
   background: var(--primary-color);
+  text-decoration: solid;
 }
 
 .card-title h5 {
   text-decoration: none;
 }
 
-/* .nav-item a:hover {
-  font-weight: 500;
-  color: black;
-  text-decoration: underline;
-} */
-
-/* body {
-  height: 100vh;
-  background: var(--body-color);
-  transition: var(--tran-05);
+.card {
+  width: 100%;
 }
 
-body.dark {
-  --body-color: #18191a;
-  --sidebar-color: #242526;
-  --primary-color: #3a383c;
-  --primary-color-light: #3a383c;
-  --toggle-color: #fff;
-  --text-color: #ccc;
-} */
+.card p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.like {
+  font-size: 18px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #1f8bff;
+  color: black;
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

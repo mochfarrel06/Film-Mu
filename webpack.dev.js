@@ -8,5 +8,6 @@ module.exports = merge(config, {
     static: {
       directory: path.resolve(__dirname, "dist"),
     },
+    port: 3000,
   },
 });
