@@ -69,3 +69,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.jumbotron {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("../assets/heros/jumbroton.jpg");
+}
