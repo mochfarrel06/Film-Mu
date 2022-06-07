@@ -34,7 +34,6 @@
 
 .nav-item a:hover {
   background: var(--primary-color);
-  text-decoration: solid;
 }
 
 .card-title h5 {
@@ -53,7 +52,7 @@
   -webkit-box-orient: vertical;
 }
 
-.like {
+.bookmark {
   font-size: 18px;
   position: fixed;
   bottom: 16px;
@@ -70,10 +69,10 @@
   justify-content: center;
 }
 
-.jumbotron {
+/* .jumbotron {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     background-size: cover;
     background-image: url("../assets/heros/jumbroton.jpg");
-}
+} */
