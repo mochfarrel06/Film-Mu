@@ -1,10 +1,12 @@
 import TheFilmDb from "../../data/thefilm-db";
 import { createMovieItemTemplate } from "../templates/template-creator";
 import "bootstrap/dist/js/bootstrap";
+import '../component/hero-component';
 
 const NowPlaying = {
   async render() {
     return `
+            <hero-component></hero-component>
             <section class="kind" id="kind">
                 <div class="container py-3">
                     <div class="row">
