@@ -77,3 +77,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.footer .text-decoration-none { 
+  background-color: black;
+}
+
