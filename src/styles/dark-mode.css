@@ -639,3 +639,13 @@
 .dark-mode .bg-primary .text-center .text-lg-start {
   color: #777;
 }
+
+.dark-mode .footer {
+  background:#202020;
+}
+
+.dark-mode .footer .text-decoration-none  {
+  background:#777;
+}
+
+
