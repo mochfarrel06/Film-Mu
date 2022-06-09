@@ -1,6 +1,5 @@
 import BookmarkFilmIdb from "../../data/bookmark-film-idb";
 import { createMovieItemTemplate } from "../templates/template-creator";
-import "bootstrap/dist/js/bootstrap";
 
 const Bookmark = {
   async render() {
@@ -9,7 +8,7 @@ const Bookmark = {
                 <div class="container py-3">
                     <div class="row">
                         <div class="col-md-12 text-center mb-5">
-                        <div class="about-title">
+                        <div class="about-title mt-5">
                             <h2 class="fw-bold">Your's Bookmark Film</h2>
                         </div>
                         </div>

@@ -1,8 +1,9 @@
 import "regenerator-runtime";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "@popperjs/core";
 import "../src/styles/style.css";
 import "../src/styles/dark-mode.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle";
 import "../src/utils/dark-mode";
 import App from "../src/scripts/views/app";
 

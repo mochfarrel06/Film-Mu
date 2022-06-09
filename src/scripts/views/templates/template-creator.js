@@ -1,12 +1,12 @@
 import CONFIG from "../../api-config/config";
 
 const createMovieDetailTemplate = (movie) => `
-    <div class="col-md-6">
+    <div class="col-md-6 mt-5">
       <div class="card shadow">
         <img class="img-thumbnail" src="${CONFIG.BASE_IMAGE_URL + movie.poster_path}" alt="${movie.title}" />
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 mt-5">
       <h3>Information</h3>
       <h4>Tagline</h4>
       <p>${movie.tagline}</p>

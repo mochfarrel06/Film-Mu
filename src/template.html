@@ -10,35 +10,43 @@
     <link rel="icon" href="Logo-FILM-MU.png" />
     <title>FILM-MU</title>
   </head>
-  <body>
+  <body class="mt-5">
     <!-- Start Header -->
     <header>
-      <nav class="navbar navbar-expand-lg shadow bg-primary">
+      <nav class="navbar fixed-top navbar-expand-lg shadow bg-primary">
         <div class="container">
           <img class="me-2" src="Logo-FILM-MU.png" alt="logo" width="40" height="36" />
-          <a class="navbar-brand fs-3 text-light" href="/">FILM-MU</a>
+          <a class="navbar-brand fs-4 text-light" href="/">FILM-MU</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pe-4 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-5 text-light" aria-current="page" href="#/now-playing">Home</a>
+                <a class="nav-link fs-6 text-light" aria-current="page" href="#/now-playing">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 text-light" href="#/bookmark">Bookmark</a>
+                <a class="nav-link fs-6 text-light" href="#/bookmark">Bookmark</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 text-light" href="#">AboutUs</a>
+                <a class="nav-link fs-6 text-light" href="#">About-Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-6 text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Movie</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#/now-playing">Now Playing</a></li>
+                  <li><a class="dropdown-item" href="#/upcoming">Upcoming</a></li>
+                  <li><a class="dropdown-item" href="#/popular">Popular</a></li>
+                </ul>
               </li>
             </ul>
             <div class="form-check form-switch">
-              <input type="checkbox" class="form-check-input fs-5" id="darkMode" />
-              <label for="darkMode" class="form-check-label mt-0 text-light">Dark Mode</label>
+              <input type="checkbox" class="form-check-input fs-6" id="darkMode" />
+              <label for="darkMode" class="form-check-label text-light fs-6">Dark Mode</label>
             </div>
             <form class="d-flex ms-2" role="search">
-              <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-light" id="searchBtn" type="submit">Search</button>
+              <input class="form-control me-2 fs-6" id="searchInput" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-light fs-6" id="searchBtn" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -50,7 +58,7 @@
     <main id="mainContent"></main>
 
     <!-- Footer -->
-    <footer class="bg-primary text-center text-lg-start footer">
+    <footer class="bg-primary text-center text-lg-start bottom">
       <!-- Copyright -->
       <div class="text-center p-3 text-light fs-6 footer">
         © 2020 Copyright: FILM-MU <br />

@@ -4,7 +4,7 @@
   /* ====== Colors =====*/
   --body-color: #e4e9f7;
   --sidebar-color: #fff;
-  --primary-color: #000000;
+  --primary-color: #0000004d;
   --primary-color-light: #f6f5ff;
   --toggle-color: #ddd;
   --text-color: #707070;
@@ -34,6 +34,15 @@
 
 .nav-item a:hover {
   background: var(--primary-color);
+}
+
+.nav-item .dropdown-menu .dropdown-item a:hover {
+  background: var(--text-color);
+}
+
+.form-check-input,
+.dropdown-item {
+  cursor: pointer;
 }
 
 .card-title h5 {
@@ -68,11 +77,3 @@
   align-items: center;
   justify-content: center;
 }
-
-/* .jumbotron {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-image: url("../assets/heros/jumbroton.jpg");
-} */

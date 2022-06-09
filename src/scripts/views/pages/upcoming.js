@@ -1,17 +1,15 @@
 import TheFilmDb from "../../data/thefilm-db";
 import { createMovieItemTemplate } from "../templates/template-creator";
-import "../component/hero-component";
 
-const NowPlaying = {
+const UpComing = {
   async render() {
     return `
-            <hero-component></hero-component>
             <section class="kind" id="kind">
                 <div class="container py-3">
                     <div class="row">
                         <div class="col-md-12 text-center mb-5">
-                        <div class="about-title">
-                            <h2 class="fw-bold">Now Playing</h2>
+                        <div class="about-title mt-5">
+                            <h2 class="fw-bold">Upcoming Movie</h2>
                         </div>
                         </div>
                     </div>
@@ -24,7 +22,7 @@ const NowPlaying = {
   },
 
   async afterRender() {
-    const movies = await TheFilmDb.nowPlayingMovies();
+    const movies = await TheFilmDb.upComingMovies();
     const moviesContainer = document.querySelector("#movies");
     movies.forEach((movie) => {
       moviesContainer.innerHTML += createMovieItemTemplate(movie);
@@ -32,4 +30,4 @@ const NowPlaying = {
   },
 };
 
-export default NowPlaying;
+export default UpComing;
