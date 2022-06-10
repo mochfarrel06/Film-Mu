@@ -30,6 +30,14 @@ const BookmarkInitiator = {
     const bookmarkBtn = document.querySelector("#bookmarkButton");
     bookmarkBtn.addEventListener("click", async () => {
       await BookMarkFilmIdb.putFilm(this._movie);
+
+      swal({
+        title: "Berhasil ditambahkan!",
+        text: "Movie berhasil ditambahkan ke Bookmark",
+        icon: "success",
+        button: true,
+      });
+
       this._renderButton();
     });
   },
@@ -40,6 +48,14 @@ const BookmarkInitiator = {
     const bookmarkBtn = document.querySelector("#bookmarkButton");
     bookmarkBtn.addEventListener("click", async () => {
       await BookMarkFilmIdb.deleteFilm(this._movie.id);
+
+      swal({
+        title: "Berhasil Dihapus!",
+        text: "Movie berhasil dihapus dari Bookmark",
+        icon: "error",
+        button: true,
+      });
+
       this._renderButton();
     });
   },
