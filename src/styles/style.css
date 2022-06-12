@@ -78,6 +78,23 @@
   justify-content: center;
 }
 
+footer{
+  flex-shrink: none;
+}
+
 .footer .text-decoration-none {
   background-color: rgba(0, 0, 0, 0.548);
+}
+
+.kind{
+  min-height: 84vh;
+}
+
+.jumbotron {
+  background-image: url("../assets/heros/jumbotron-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 380px;
+  width: 100%;
 }

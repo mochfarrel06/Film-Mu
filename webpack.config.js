@@ -14,17 +14,19 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(png|svg|jpe?g|gif)$/i,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: 'assets',
-                    publicPath: 'assets',
+              test: /\.css$/,
+              use: [
+                {
+                  loader: 'style-loader',
                 },
+                {
+                  loader: 'css-loader',
+                },
+              ],
             },
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+              test: /\.(png|svg|jpg|jpeg|gif)$/,
+              use: ['file-loader'],
             },
         ],
     },
