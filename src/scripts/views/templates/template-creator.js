@@ -15,7 +15,7 @@ const createMovieDetailTemplate = (movie) => `
       <h4>Duration</h4>
       <p>${movie.runtime} minutes</p>
       <h4>Rating</h4>
-      <p>⭐️${movie.vote_average}</p>
+      <p>⭐️${movie.vote_average} / 10</p>
       <h3>Overview</h3>
       <p>${movie.overview}</p>
     </div>

@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500&display=swap');
+
 
 :root {
   /* ====== Colors =====*/
@@ -16,6 +18,12 @@
   --tran-05: all 0.5s ease;
 }
 
+.card-body,
+#movie {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
 .container a:hover {
   color: #414141;
 }
@@ -23,6 +31,11 @@
 .navbar-brand {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
+}
+
+.navbar-nav {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }
 
 .nav-item a {
@@ -80,6 +93,8 @@
 
 footer{
   flex-shrink: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }
 
 .footer .text-decoration-none {
@@ -95,6 +110,6 @@ footer{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 380px;
+  min-height: 490px;
   width: 100%;
 }
