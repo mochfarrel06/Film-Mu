@@ -17,7 +17,7 @@ const createMovieDetailTemplate = (movie) => `
       <h4>Rating</h4>
       <p>⭐️${movie.vote_average} / 10</p>
       <h3>Overview</h3>
-      <p>${movie.overview}</p>
+      <p class="justify">${movie.overview}</p>
     </div>
 `;
 
@@ -29,8 +29,8 @@ const createMovieItemTemplate = (movie) => `
             </a>
             <div class="card-body">
                 <h5 class="card-title text-center pb-2"><a class="text-decoration-none" href="${`/#/detail/${movie.id}`}">${movie.title}</a></h5>
-                <span class="text-bg-secondary">Rating: ⭐️${movie.vote_average}</span>
-                <p class="card-text text-justify">${movie.overview}</p>
+                <span class="text-bg-secondary rounded-1">Rating: ⭐️${movie.vote_average}</span>
+                <p class="card-text justify">${movie.overview}</p>
             </div>
         </div>
     </div>
