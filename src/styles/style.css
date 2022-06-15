@@ -122,3 +122,7 @@ footer{
   min-height: 490px;
   width: 100%;
 }
+
+.justify { 
+  text-align: justify;
+}
