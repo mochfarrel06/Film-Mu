@@ -5,7 +5,7 @@ class HeroComponent extends HTMLElement {
 
   _render() {
     this.innerHTML = `
-              <div class="jumbotron container-fluid bg-warning text-light text-center">
+              <div class="jumbotron container-fluid text-light text-center">
                 
               </div>
           `;

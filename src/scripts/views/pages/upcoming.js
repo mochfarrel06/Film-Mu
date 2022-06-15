@@ -9,7 +9,7 @@ const UpComing = {
                     <div class="row">
                         <div class="col-md-12 text-center mb-5">
                         <div class="about-title mt-5">
-                            <h2 class="fw-bold">Upcoming Movie</h2>
+                            <h2 class="fw-bold" id="text">Upcoming Movie</h2>
                         </div>
                         </div>
                     </div>

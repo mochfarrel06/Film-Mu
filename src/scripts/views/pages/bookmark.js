@@ -9,7 +9,7 @@ const Bookmark = {
                     <div class="row">
                         <div class="col-md-12 text-center mb-5">
                         <div class="about-title mt-5">
-                            <h2 class="fw-bold">Your's Bookmark Film</h2>
+                            <h2 class="fw-bold" id="text">Your Bookmark Film</h2>
                         </div>
                         </div>
                     </div>
@@ -24,8 +24,9 @@ const Bookmark = {
   async afterRender() {
     const movies = await BookmarkFilmIdb.getAllFilm();
     const moviesContainer = document.querySelector("#movies");
+    const massage = document.querySelector("#text");
     movies.forEach((movie) => {
-      moviesContainer.innerHTML += createMovieItemTemplate(movie);
+        moviesContainer.innerHTML += createMovieItemTemplate(movie);
     });
   },
 };

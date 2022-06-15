@@ -22,7 +22,7 @@ const AboutUs = {
             </div>
             </div>
             <div class="about-title mt-5 text-center">
-                    <h2 class="fw-normal">About Tim's</h2>
+                    <h2 class="fw-normal">About Tim</h2>
                 </div>
             <div class="col-sm-6 col-md-3 mb-3">
             <div class="card shadow">

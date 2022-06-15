@@ -105,7 +105,16 @@ footer{
   min-height: 84vh;
 }
 
+.img-thumbnail:hover {
+  background-color: rgba(22, 44, 68, 0.197);
+  padding: 6px 6px;
+  transition: var(--tran-03);
+  opacity: 80%;
+  filter: alpha(opacity=80);
+}
+
 .jumbotron {
+  margin-top: 60px;
   background-image: url("../assets/heros/jumbotron-1.jpg");
   background-position: center;
   background-size: cover;
