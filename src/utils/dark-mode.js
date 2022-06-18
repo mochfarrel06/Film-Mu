@@ -1,85 +1,58 @@
 let darkModeOn = false;
-
-const createCookie = (name, value, days) => {
-  let expires;
-  if (days) {
-    let date = new Date();
-    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-    expires = "expires=" + date.toGMTString();
-  } else {
-    expires = "";
-  }
-  document.cookie = name + "=" + value + "; SameSite=Lax;" + expires + "; path=/";
-};
-
-const readCookie = (name) => {
-  let nameEQ = name + "=";
-  let ca = document.cookie.split(";");
-  for (let i = 0; i < ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) === " ") {
-      c = c.substring(1, c.length);
+      
+    const createStorage = (name, value) => {
+      localStorage.setItem(name, value);
     }
-    if (c.indexOf(nameEQ) === 0) {
-      return c.substring(nameEQ.length, c.length);
+      
+    const readStorage = name => {
+      return localStorage.getItem(name);
     }
-  }
-  return null;
-};
-
-const deleteCookie = (name) => {
-  createCookie(name, "", -1);
-};
-
-const toggleDarkMode = (e) => {
-  if (document.body.classList.contains("dark-mode")) {
-    document.body.classList.remove("dark-mode");
-    darkModeOn = false;
-    createCookie("my_preferredMode", "light-mode", 365);
-  } else {
-    document.body.classList.add("dark-mode");
-    darkModeOn = true;
-    createCookie("my_preferredMode", "dark-mode", 365);
-  }
-};
-
-const getPreferredMode = () => {
-  if (readCookie("my_preferredMode")) {
-    return readCookie("my_preferredMode");
-  } else {
-    return "not-set";
-  }
-};
-
-document.getElementById("darkMode").addEventListener("click", toggleDarkMode);
-
-document.addEventListener("DOMContentLoaded", () => {
-  if (readCookie("my_preferredMode")) {
-    if (readCookie("my_preferredMode") == "dark-mode") {
-      darkModeOn = true;
-    } else {
-      darkModeOn = false;
+      
+    const deleteStorage = name => {
+      localStorage.removeItem(name);
     }
-  } else {
-    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      darkModeOn = true;
-    } else {
+     
+    const toggleDarkMode = (e) => {
       if (document.body.classList.contains("dark-mode")) {
-        darkModeOn = true;
-      } else {
+        document.body.classList.remove("dark-mode");
         darkModeOn = false;
+        createStorage("my_preferredMode", "light-mode");
+      } else {
+        document.body.classList.add("dark-mode");
+        darkModeOn = true;
+        createStorage("my_preferredMode", "dark-mode");
       }
     }
-  }
+      
+    document.getElementById("darkMode").addEventListener("click", toggleDarkMode)
+      
+    document.addEventListener("DOMContentLoaded", () => {
+      if (readStorage("my_preferredMode")) {
+        if (readStorage("my_preferredMode") == "dark-mode") {
+          darkModeOn = true;
+        } else {
+          darkModeOn = false;
+        }
+      } else {
+        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          darkModeOn = true;
+        } else {
+          if (document.body.classList.contains("dark-mode")) {
+            darkModeOn = true;
+          } else {
+            darkModeOn = false;
+          }
+        }
+      }
 
-  if (darkModeOn) {
-    if (!document.body.classList.contains("dark-mode")) {
-      document.body.classList.add("dark-mode");
-    }
-    document.getElementById("darkMode").checked = true;
-  } else {
-    if (document.body.classList.contains("dark-mode")) {
-      document.body.classList.remove("dark-mode");
-    }
-  }
-});
+      if (darkModeOn) {
+        if (!document.body.classList.contains("dark-mode")) {
+          document.body.classList.add("dark-mode");
+        }
+        document.getElementById("darkMode").checked = true
+      } else {
+        if (document.body.classList.contains("dark-mode")) {
+          document.body.classList.remove("dark-mode");
+        }
+      }
+    })
