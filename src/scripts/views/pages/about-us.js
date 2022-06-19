@@ -26,45 +26,65 @@ const AboutUs = {
                 </div>
             <div class="col-sm-6 col-md-3 mb-3">
             <div class="card shadow">
-              <img class="img-thumbnail" alt="" src="../Logo-FILM-MU.png" />
+              <img class="img-thumbnail rounded-circle" alt="" src="../about-us/adit.jpg" />
                 <div class="card-body">
-                  <h5 class="card-title text-center pb-2">"Nama"</h5>
-                  <p class="card-text text-justify mt-">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
+                  <h5 class="card-title text-center pb-2">Adithia Fahri Pahrudin</h5>
+                  <p class="card-text text-justify fs-7">Universitas Singaperbangsa Karawang</p>
+                  <p class="card-text text-justify">ID : F2314A298</p>
+                  <div class="text-center">
+                    <a href="" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
+                    <a href="https://www.instagram.com/fahriadithia/" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
+                    <a href="https://web.facebook.com/adithia.fahrudin/" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
+                    <a href="https://www.linkedin.com/in/aditfp" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
+                  </div>
                 </div>
             </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
             <div class="card shadow">
-              <img class="img-thumbnail" alt="" src="../Logo-FILM-MU.png" />
+              <img class="img-thumbnail rounded-circle" alt="" src="../about-us/farel.jpg" />
                 <div class="card-body">
-                  <h5 class="card-title text-center pb-2">"Nama"</h5>
-                  <p class="card-text text-justify mt-">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
+                  <h5 class="card-title text-center pb-2">Moch Farrel</h5>
+                  <p class="card-text text-justify">Universitas Muhammadiyah Malang</p>
+                  <p class="card-text text-justify">ID : F2258A229</p>
+                  <div class="text-center">
+                    <a href="https://twitter.com/MochFarrel06" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
+                    <a href="https://www.instagram.com/mochfarrel.d/" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
+                    <a href="" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
+                    <a href="https://www.linkedin.com/in/moch-farrel-4ba845142/" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
+                  </div>
                 </div>
             </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
             <div class="card shadow">
-              <img class="img-thumbnail" alt="" src="../Logo-FILM-MU.png" />
+              <img class="img-thumbnail rounded-circle" alt="" src="../about-us/fariz.jpg" />
                 <div class="card-body">
-                  <h5 class="card-title text-center pb-2">"Nama"</h5>
-                  <p class="card-text text-justify mt-">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
+                  <h5 class="card-title text-center pb-2">Muhammad Fariz Dzuhreza</h5>
+                  <p class="card-text text-justify">Universitas Mikroskil</p>
+                  <p class="card-text text-justify">ID : F2172A135</p>
+                  <div class="text-center">
+                    <a href="https://twitter.com/mfaridz_dz" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
+                    <a href="https://www.instagram.com/mfariz_dz/" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
+                    <a href="https://web.facebook.com/muhammad.faridzdzuhreza/" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
+                    <a href="https://www.linkedin.com/in/mfariz-dzuhreza-329579203/" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
+                  </div>
                 </div>
             </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
             <div class="card shadow">
-              <img class="img-thumbnail" alt="" src="../Logo-FILM-MU.png" />
+              <img class="img-thumbnail rounded-circle" alt="" src="../about-us/tasya.jpg" />
                 <div class="card-body">
-                  <h5 class="card-title text-center pb-2">"Nama"</h5>
-                  <p class="card-text text-justify mt-">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
-                  <p class="card-text text-justify">"Terserah": "Hallo"</p>
+                  <h5 class="card-title text-center pb-2">Natasya Hayu Pangestika</h5>
+                  <p class="card-text text-justify">Universitas Kristen Immanuel Yogyakarta</p>
+                  <p class="card-text text-justify">ID : F7240A194</p>
+                  <div class="text-center">
+                    <a href="https://twitter.com/N_Tasya17" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
+                    <a href="https://www.instagram.com/n_hoshi0605/" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
+                    <a href="" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
+                    <a href="https://www.linkedin.com/in/tasya-pangestika-6a8744151" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
+                  </div>
                 </div>
             </div>
             </div>
