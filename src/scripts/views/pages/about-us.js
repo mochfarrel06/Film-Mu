@@ -1,4 +1,3 @@
-
 const AboutUs = {
   async render() {
     return `
@@ -95,7 +94,7 @@ const AboutUs = {
   `;
   },
 
-  async afterRender(){}
+  async afterRender() {},
 };
 
 export default AboutUs;
