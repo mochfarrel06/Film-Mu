@@ -5,6 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Link Manifest -->
+    <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <meta name="theme-color" content="#ffffff"/>
+
     <!-- Sweet Alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -20,7 +25,7 @@
   <body class="mt-5">
     <!-- Start Header -->
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg shadow bg-primary">
+      <nav class="navbar fixed-top navbar-expand-lg shadow bg-primary" id="navbar">
         <div class="container">
           <a href="/"><img class="me-2" src="Logo-FILM-MU.png" alt="logo" width="40" height="36"/>
           <a class="navbar-brand fs-4 text-light" href="/">FILM-MU</a></a>

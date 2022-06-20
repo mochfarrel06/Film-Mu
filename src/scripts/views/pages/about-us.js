@@ -17,7 +17,7 @@ const AboutUs = {
             <div class="card shadow">
                 <div class="card-body">
                   <h5 class="card-title text-center pb-2">FIlM-MU</h5>
-                  <p class="card-text text-center mt-">FILM-MU adalah sebuah website yang ditujukan untuk mencari dan menemukan sebuah film yang sedang tayang</p>
+                  <p class="card-text text-center mt-">FILM-MU adalah sebuah website yang ditujukan untuk mencari dan menemukan sebuah film yang sedang tayang, pupular maupun yang akan datang.</p>
                 </div>
             </div>
             </div>
@@ -32,8 +32,8 @@ const AboutUs = {
                   <p class="card-text text-justify fs-7">Universitas Singaperbangsa Karawang</p>
                   <p class="card-text text-justify">ID : F2314A298</p>
                   <div class="text-center">
-                    <a href="" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
-                    <a href="https://www.instagram.com/fahriadithia/" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
+                    <a href="https://twitter.com/Fahriadthia" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
+                    <a href="https://www.instagram.com/fahriadithia/" class="text-decoration-none" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
                     <a href="https://web.facebook.com/adithia.fahrudin/" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
                     <a href="https://www.linkedin.com/in/aditfp" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
                   </div>

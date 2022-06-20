@@ -1,9 +1,20 @@
 import UrlParser from "../routes/url-parser";
 import routes from "../routes/routes";
+import CollapseInitiator from "../../utils/burgerButton";
 
 class App {
-  constructor({ content }) {
+  constructor({ content, navbar }) {
     this._content = content;
+    this._navbar = navbar;
+
+    this._initialAppShell();
+  }
+
+  _initialAppShell() {
+    CollapseInitiator.init({
+      content: this.content,
+      navbar: this.navbar
+    })
   }
 
   async renderPage() {

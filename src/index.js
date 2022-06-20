@@ -6,11 +6,11 @@ import "../src/styles/dark-mode.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/utils/dark-mode";
 import "../src/utils/search";
-import "../src/utils/burgerButton";
 import App from "../src/scripts/views/app";
 
 const app = new App({
   content: document.querySelector("#mainContent"),
+  navbar: document.querySelector("#navbar")
 });
 
 window.addEventListener("hashchange", () => {
@@ -19,4 +19,5 @@ window.addEventListener("hashchange", () => {
 
 window.addEventListener("load", () => {
   app.renderPage();
+
 });
