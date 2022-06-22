@@ -2,7 +2,6 @@ import CONFIG from "../scripts/api-config/config";
 
 function searchMovie() {
   $("#movies").html("");
-  $("#text").html("");
   $.ajax({
     url: `${CONFIG.SEARCH_URL}`,
     type: "get",
@@ -12,18 +11,8 @@ function searchMovie() {
       query: $("#searchInput").val(),
     },
     success: function (res) {
-      
-      if (res.results) {
+      if (res.results != 0) {
           let movies = res.results;
-          $("#movies").append(`
-            <div class="row">
-              <div class="col-md-12 text-center mb-5">
-                <div class="about-title">
-                    <h2 class="fw-bold mt-0" id="text">Your Search</h2>
-                </div>
-              </div>
-            </div>
-          `)
           $.each(movies, function (i, data) {
             $("#movies").append(`
                   <div class="col-sm-6 col-md-4 mb-3">
@@ -45,10 +34,13 @@ function searchMovie() {
 
           } else {
             $("#movies").html(`
-                <div class="about-title">
-                  <h2 class="fw-bold">Now Playing</h2>
-                </div>
+            <div class="col-md-12 text-center mb-5">
+              <div class="about-title mt-5">
+                  <h2 class="fw-light" id="text">Your Search Not Found!!</h2>
+              </div>
+            </div>
             `)
+            $("#searchInput").val("");
         }
       }
   });
@@ -56,11 +48,11 @@ function searchMovie() {
 
 $("#searchBtn").on("click", function (e) {
   e.preventDefault();
-  searchMovie();
+  searchMovie(window.location.href="#/search");
 });
 
 $("#searchInput").on("keyup", function (e) {
   if (e.keycode === 13){
     searchMovie();
   }
-})
+});

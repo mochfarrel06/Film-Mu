@@ -114,7 +114,7 @@ footer{
 }
 
 .jumbotron {
-  background-image: url("../assets/heros/jumbotron-1.jpg"),linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%);
+  background-image: url("../assets/heros/jumbotron-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

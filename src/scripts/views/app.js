@@ -14,7 +14,7 @@ class App {
     CollapseInitiator.init({
       content: this.content,
       navbar: this.navbar
-    })
+    });
   }
 
   async renderPage() {
