@@ -81,8 +81,8 @@ const AboutUs = {
                   <div class="text-center">
                     <a href="https://twitter.com/N_Tasya17" target="_blank"><i class="bi bi-twitter fs-2"></i></a>
                     <a href="https://www.instagram.com/n_hoshi0605/" target="_blank"><i class="bi bi-instagram fs-2 ps-2"></i></a>
-                    <a href="" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
-                    <a href="https://www.linkedin.com/in/tasya-pangestika-6a8744151" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009223540754" target="_blank"><i class="bi bi-facebook fs-2 ps-2"></i></a>
+                    <a href="https://www.linkedin.com/in/natasya-hayu-pangestika-6a8744151" target="_blank"><i class="bi bi-linkedin fs-2 ps-2"></i></a>
                   </div>
                 </div>
             </div>
