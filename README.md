@@ -8,8 +8,9 @@
 
 # CPSG-58
 CPSG-58 is a group that was established to make a final project of the MSIB (Certified Independent Study and Internship) Batch 2 activity. The project we created is a website to find a list of the latest and updated films we called "Film-Mu".
+
 <p align="center">
-    <img src="https://drive.google.com/file/d/11iPAV7EQGcn9IUCk_7jR0xKKxPWyX-vt/view?usp=sharing"/>
+    <img src="https://raw.githubusercontent.com/mochfarrel06/Film-Mu/main/src/assets/Logo-FILM-MU-Kanan.png"/>
 </p>
 
 
