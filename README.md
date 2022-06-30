@@ -26,7 +26,7 @@ CPSG-58 is a group that was established to make a final project of the MSIB (Cer
 1. `Adithia Fahri Pahrudin` [Link Github](https://github.com/AditFahrP)
 2. `Moch Farrel` [Link Github](https://github.com/mochfarrel06)
 3. `Muhammad Fariz Dzuhreza` [Link Github](https://github.com/mfariz03)
-4. `Natsya Hayu Pangestika` [Link Github](https://github.com/NatasyaHayuPangestika)
+4. `Natasya Hayu Pangestika` [Link Github](https://github.com/NatasyaHayuPangestika)
 
 ## Tools 🧰
 - `nodeJs`
