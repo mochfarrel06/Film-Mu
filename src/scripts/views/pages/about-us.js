@@ -12,16 +12,18 @@ const AboutUs = {
               <div class="mb-3">
               <div class="about-title mt-5 text-center">
                     <h2 class="fw-normal">About FILM-MU</h2>
+                    <br></br>
                 </div>
             <div class="card shadow">
                 <div class="card-body">
-                  <h5 class="card-title text-center pb-2">FIlM-MU</h5>
+                  <h5 class="card-title text-center pb-2">FILM-MU</h5>
                   <p class="card-text text-center mt-">FILM-MU adalah sebuah website yang ditujukan untuk mencari dan menemukan sebuah film yang sedang tayang, pupular maupun yang akan datang.</p>
                 </div>
             </div>
             </div>
             <div class="about-title mt-5 text-center">
-                    <h2 class="fw-normal">About Tim</h2>
+                    <h2 class="fw-normal">About Team</h2>
+                    <br></br>
                 </div>
             <div class="col-sm-6 col-md-3 mb-3">
             <div class="card shadow h-100">
