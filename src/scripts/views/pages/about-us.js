@@ -24,7 +24,7 @@ const AboutUs = {
                     <h2 class="fw-normal">About Tim</h2>
                 </div>
             <div class="col-sm-6 col-md-3 mb-3">
-            <div class="card shadow">
+            <div class="card shadow h-100">
               <img class="img-thumbnail rounded-circle" alt="" src="../about-us/adit.jpg" />
                 <div class="card-body">
                   <h5 class="card-title text-center pb-2">Adithia Fahri Pahrudin</h5>
@@ -40,7 +40,7 @@ const AboutUs = {
             </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
-            <div class="card shadow">
+            <div class="card shadow h-100">
               <img class="img-thumbnail rounded-circle" alt="" src="../about-us/farel.jpg" />
                 <div class="card-body">
                   <h5 class="card-title text-center pb-2">Moch Farrel</h5>
@@ -56,7 +56,7 @@ const AboutUs = {
             </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
-            <div class="card shadow">
+            <div class="card shadow h-100">
               <img class="img-thumbnail rounded-circle" alt="" src="../about-us/fariz.jpg" />
                 <div class="card-body">
                   <h5 class="card-title text-center pb-2">Muhammad Fariz Dzuhreza</h5>
@@ -72,7 +72,7 @@ const AboutUs = {
             </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
-            <div class="card shadow">
+            <div class="card shadow h-100">
               <img class="img-thumbnail rounded-circle" alt="" src="../about-us/tasya.jpg" />
                 <div class="card-body">
                   <h5 class="card-title text-center pb-2">Natasya Hayu Pangestika</h5>
