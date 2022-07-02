@@ -8,14 +8,14 @@
 
 # Table of Contents
 - [CPSG-58](#cpsg-58)
-- [Our All Team](#our-all-team-)
+- [Our Team](#our-team-)
 - [Tools](#tools-)
 - [Framework We Use](#framework-we-use)
 - [Database We Use](#database-we-use)
 - [Resource](#resource)
 
 ## CPSG-58
-CPSG-58 is a group that was established to make a final project of the MSIB (Certified Independent Study and Internship) Batch 2 activity. The project we created is a website to find a list of the latest and updated films we called "Film-Mu".
+CPSG-58 is a group that was established to make a final project of the MSIB (Certified Independent Study and Internship) Batch 2 activity. The project we created is a website to find a list of the latest and updated films, we called "Film-Mu".
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/mochfarrel06/Film-Mu/main/src/assets/Logo-FILM-MU-Kanan.png"/>
@@ -24,7 +24,7 @@ CPSG-58 is a group that was established to make a final project of the MSIB (Cer
 ## Link Website
 - [Film-Mu](http://filmmu.herokuapp.com/)
 
-## Our All Team 😄
+## Our Team 😄
 1. `Adithia Fahri Pahrudin` [Link Github](https://github.com/AditFahrP)
 2. `Moch Farrel` [Link Github](https://github.com/mochfarrel06)
 3. `Muhammad Fariz Dzuhreza` [Link Github](https://github.com/mfariz03)
