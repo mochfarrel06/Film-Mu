@@ -1,4 +1,4 @@
-import CONFIG from "../../api-config/config";
+import CONFIG from '../../api-config/config';
 
 const createMovieDetailTemplate = (movie) => `
     <div class="col-md-6 mt-5">
@@ -23,9 +23,9 @@ const createMovieDetailTemplate = (movie) => `
 
 const createMovieItemTemplate = (movie) => `
     <div class="col-sm-6 col-md-4 mb-3">
-        <div class="card shadow">
+        <div class="card shadow h-100">
           <a class="text-decoration-none" href="${`/#/detail/${movie.id}`}">
-              <img class="img-thumbnail" alt="${movie.title}" src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : "https://picsum.photos/id/666/800/450?grayscale"}" />
+              <img class="img-thumbnail" alt="${movie.title}" src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : 'https://picsum.photos/id/666/800/450?grayscale'}" />
             </a>
             <div class="card-body">
                 <h5 class="card-title text-center pb-2"><a class="text-decoration-none" href="${`/#/detail/${movie.id}`}">${movie.title}</a></h5>
