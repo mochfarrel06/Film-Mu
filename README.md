@@ -15,13 +15,13 @@
 - [Resource](#resource)
 
 ## CPSG-58
-CPSG-58 is a group that was established to make a final project of the MSIB (Certified Independent Study and Internship) Batch 2 activity. The project we created is a website to find a list of the latest and updated films, we called "Film-Mu".
+CPSG-58 is a group that was established to make a final project of the MSIB (Certified Independent Study and Internship) Batch 2 activity at Dicoding. The project we created is a website to find a list of the latest, upcoming, and updated films, we called "Film-Mu".
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/mochfarrel06/Film-Mu/main/src/assets/Logo-FILM-MU-Kanan.png"/>
 </p>
 
-## Link Website
+## Link Website 🔗
 - [Film-Mu](http://filmmu.herokuapp.com/)
 
 ## Our Team 😄
@@ -44,6 +44,6 @@ CPSG-58 is a group that was established to make a final project of the MSIB (Cer
 
 ## Resource
 - `Dark Mode` [Link](https://github.com/asishgeorge/50Projects50Days)
-- `Fons Awesome` [Link](https://fontawesome.com/)
+- `Font Awesome` [Link](https://fontawesome.com/)
 - `Referensi Gambar` [Link](https://unsplash.com/)
 - `Logo` [Link](https://www.logodesign.net/studio-design/0/MTE0Ng%253D%253D/Q09NUEFOWSBOQU1F/0?sf=)
