@@ -17,7 +17,7 @@ const AboutUs = {
             <div class="card shadow">
                 <div class="card-body">
                   <h5 class="card-title text-center pb-2">FILM-MU</h5>
-                  <p class="card-text text-center mt-">FILM-MU adalah sebuah website yang ditujukan untuk mencari dan menemukan sebuah film yang sedang tayang, pupular maupun yang akan datang.</p>
+                  <p class="card-text text-center mt-">FILM-MU adalah sebuah website yang ditujukan untuk mencari dan menemukan sebuah film yang sedang tayang, populer maupun yang akan datang.</p>
                 </div>
             </div>
             </div>
